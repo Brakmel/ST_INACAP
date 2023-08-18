@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brakmel</title>
+    <link rel="StyleSheet" href="../CSS/RD.css" type="text/css">
+    <link rel="icon" href="../IMG/inacap.ico">
+</head>
+<body>
+    <header>
+        <a href="https://portales.inacap.cl/sedes/santiago-centro/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Logotipo_Inacap.svg/1200px-Logotipo_Inacap.svg.png" alt="Logo_inacap">
+        </a>
+        <a href="login.html">
+        <button>Panel de Administrador</button>
+        </a>
+    </header>
+    <main>
+        <h2 class="h2">Seleccione el tipo de reporte:</h2>
+        <a href="RA.html">
+            <button class="button_RS">
+                Reporte Semanal
+            </button>
+            </a>
+        <a href="../index.html"> 
+            <button class="button_RD">
+                Regresa Index
+            </button>
+        </a>
+        <form action="https://formsubmit.co/Brakmel6@icloud.com" enctype="multipart/form-data" method="POST">
+            <div class="baul_tipos_row">
+                <div class="Titulo">
+                    <h2>DEPARTAMENTO DE TECNOLOGÍAS DE LA INFORMACIÓN</h1>
+                </div>
+                <div class="Titulo_img">
+                    <img  class="img_form" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Logotipo_Inacap.svg/240px-Logotipo_Inacap.svg.png">
+                </div>
+            </div>
+            <div class="baul_tipos_row">
+                <input class="info" type="text" name="Lab/sala" placeholder="Sala/Lab" required>
+                <input class="info" type="datetime-local" name="Fecha" required>
+                <input class="info" type="text" name="Soporte" placeholder="Su nombre" required>
+            </div>
+            <div class="baul_inputs">
+                <div class="baul_tipos_column">
+                    <p class="p_form">Cámara:</p>
+                    <p class="p_form">Micrófono:</p>
+                    <p class="p_form">Consola de audio:</p>
+                    <p class="p_form">KAPTIVO:</p>
+                    <p class="p_form">Zoom:</p>
+                    <p class="p_form">Amplificador de Sonido:</p>
+                    <p class="p_form">Pizarra Interactiva:</p>
+                </div>
+                <div class="inputs">
+                    <input type="text" name="Cámara" placeholder="OK /... /... / sin problema" required>
+                    <input type="text" name="Micrófono" placeholder="OK /... /... / sin problema" required>
+                    <input type="text" name="Consola de audio" placeholder="OK /... /... / sin problema" required>
+                    <input type="text" name="KAPTIVO" placeholder="OK /... /... / sin problema" required>
+                    <input type="text" name="ZOOM" placeholder="OK /... /... / sin problema" required>
+                    <input type="text" name="AMPLIFICADOR DE SONIDO" placeholder="OK /... /... / sin problema" required>
+                    <input type="text" name="PIZARRA INTERACTIVA" placeholder="OK /... /... / sin problema" required>
+                </div>
+            </div>
+            <div class="baul_tipos_row">
+                <h2>¿Deseas comentar algo?</h2>
+            </div>
+            <div class="baul_tipos_row">
+                <textarea name="Comentario" placeholder="OK /... /... / sin problema"></textarea>
+            </div>
+            <div class="baul_tipos_row">
+                <h2>¿Deseas adjuntar alguna captura?</h2>
+            </div>
+            <div class="baul_tipos_row">
+                <input type="file" name="Captura 1" accept="image/png, image/jpeg">
+            </div>
+            <div class="baul_tipos_row">
+                <input type="submit" value="📮 Enviar TODO 📮">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/HTML/TicketEnviado.html"> 
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a href="https://www.google.com/intl/es-419/gmail/about/"><img class="img_rs" src="https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97" alt="Gmail"></a>
+        <a href="https://chat.whatsapp.com/JCG1Qj0DiY11Ljtp5NXVdR"><img class="img_rs" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Whatsapp_logo_svg.png" alt="WSP"></a>
+        <a href="https://github.com/Brakmel"><img class="img_rs" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github"></a>
+    </footer>
+</body>
+</html>

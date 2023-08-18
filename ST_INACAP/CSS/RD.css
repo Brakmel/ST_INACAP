@@ -1,0 +1,265 @@
+body{
+    background-color: rgb(244, 240, 240);
+    margin:0%;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+img{
+    width: 20ex;
+    margin: 2ex;
+}
+h1{
+    font-size: 5ex;
+    width: 50%;
+    text-align: end;
+    margin: 3ex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h2{
+    color: black;
+    font-size: 3ex;
+    text-align: end;
+    margin: 1ex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 3ex;
+    text-align: end;
+    margin: 1ex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+p{
+    color: rgb(174, 33, 33);
+    font-size: 4ex;
+    text-align: end;
+    margin: 1ex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+}
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:2ex;
+    margin: 2ex;
+    border-radius: 2ex;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(244, 240, 240);
+    transition: 0.5s;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button_RD{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:5ex;
+    margin: 2ex;
+    border-radius: 2ex;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button_RD:hover{
+    background-color: rgb(244, 240, 240);
+    transition: 0.5s;
+}
+.button_RS{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:5ex;
+    margin: 2ex;
+    border-radius: 2ex;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button_RS:hover{
+    background-color: rgb(244, 240, 240);
+    transition: 0.5s;
+}
+.container_Qr{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img_qr{
+    width: 50ex;
+    border-radius: 2ex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.img_rs{
+    width: 10ex;
+    border-radius: 100%;
+    transition: 1s;
+}
+.img_rs:hover{
+    -webkit-transform: rotateZ(360deg);
+    transition: 1s ease-in-out;
+}
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.p_form{
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    font-size: 3.5ex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.example{
+    width: 75%;
+}
+textarea{
+    width: 90%;
+    height: 10ex;
+    font-size: 10ex;
+}
+form{
+    background-color: #ffffff;
+    width: 92%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10ex;
+    border-radius: 3ex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.baul_tipos_row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.img_form{
+    width: 27ex;
+}
+.Titulo{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.Titulo_img{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.name1{
+    width: 28%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name2{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name3{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name4{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name5{
+    width: 22%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.info{
+    width: 29%;
+    text-align: center;
+    color: #000;
+    font-size: 3ex;
+}
+.baul_inputs{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_tipos_column{
+    width: 30%;
+    height: 130ex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inputs{
+    width: 80%;
+    height: 130ex;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    width: 90%;
+    height: 5ex;
+    font-size: 4ex;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1ex;  
+    cursor: pointer;
+}
+p{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size:2ex; 
+    margin: 3ex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
